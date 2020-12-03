@@ -1,5 +1,7 @@
 # Algorithms And Complexity
 
+## Sorting Algorithms
+
 #### Bubble Sort
 Time complexity: Average is O(n²).
 Bubble goes through list comparing adjacent element pairs and swaps pairs based on value.
