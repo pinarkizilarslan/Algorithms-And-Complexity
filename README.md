@@ -34,3 +34,10 @@ Radix uses bits to sort by digits, starting with first or last digit.
 #### Counting Sort:
 Time complexity: Average and best is O(n+k).
 Counting sorts by keeping track of the amount of times each value appears in the input list.
+
+
+
+## Minimum Coin Exchange
+Given a set of coins that includes 1 returns the minimum number of coins necessary to represent the amount.
+Coins are not given in sorted order.
+This is a Greedy Algorithm and works with O(nlogn).
