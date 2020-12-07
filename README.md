@@ -1,7 +1,7 @@
 # Algorithms And Complexity
 
 
-### Sorting Algorithms
+## Sorting Algorithms
 
 Bubble Sort: Time complexity: Average is O(n²). Bubble goes through list comparing adjacent element pairs and swaps pairs based on value.
 
@@ -20,7 +20,7 @@ Radix Sort: Time complexity: Average and best is O(nk). Radix uses bits to sort 
 Counting Sort: Time complexity: Average and best is O(n+k). Counting sorts by keeping track of the amount of times each value appears in the input list.
 
 
-### Minimum Coin Exchange
+## Minimum Coin Exchange
 Given a set of coins that includes 1 returns the minimum number of coins necessary to represent the amount.
 Coins are not given in sorted order.
 This is a Greedy Algorithm and works with O(nlogn).
