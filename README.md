@@ -31,6 +31,8 @@ A dynamic programming algorithm that determines the minimum edit distance betwee
 The sequence of changes is :
 
  •	Replace x_1 with  y_1('s')
+ 
  •	Insert  y_5('r') after x_4
+ 
  •	Delete x_7('h')
  
