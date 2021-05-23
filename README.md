@@ -26,8 +26,14 @@ The resulting integer is written to 'result.txt'
 
 ## Minimum Coin Exchange
 Given a set of coins that includes 1 returns the minimum number of coins necessary to represent the amount. <br>
-Coins are not given in sorted order. <br>
-This is a Greedy Algorithm and works with O(nlogn). <br>
+Coins are not given in sorted order. This is a Greedy Algorithm and works with O(nlogn). <br>
+<br>
+For example, assume you are given a set of coins {1, 5, 10, 25}, and the amount is 68. Then the minimum number of coins necessary to make up for this amount is: <br>
+Two 25 coins <br>
+One 10 coin <br>
+One 5 coin <br>
+Three 1 coins <br>
+Total: 7 coins (2x25+1x10+1x5+3x1 = 68). <br>
 <br>
 
 
