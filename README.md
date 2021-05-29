@@ -10,6 +10,21 @@ The sequence of changes is :
  •	Delete x_7('h') <br>
 <br> 
 
+
+## Huffman Coder 
+In computer science and information theory, a Huffman code is a particular type of optimal prefix code that is commonly used for lossless data compression. 
+<br> <br> 
+You are given an array of N unsigned chars (symbols) where each symbol is represented by 8-bits. Design a Huffman Coder that returns the length of the codeword for each of the possible 256 symbols and the total number of bits required to encode this data. 
+Requirement: After computing the frequency of occurrence of each symbol, you must implement a min-heap (priority queue) to implement the Huffman coder. <br> 
+For example, given Data = [‘a’, ‘b’, ‘b’, ‘a’, ‘c’, ‘d’, ‘a’, ‘a’, ‘c’, ‘a’, ‘c’] <br> 
+Codeword lengths: [1, 3, 2, 3] <br> 
+a=0 <br> 
+b=110 <br> 
+c=10 <br> 
+d=111 <br> 
+Total number of bits required to encode the data: 17 <br> 
+<br> 
+
  
 ## Long Integer Multiplication
 In this project the divide-and-conquer long integer multiplication algorithm, whose running time is O(n1.58), was applied.
