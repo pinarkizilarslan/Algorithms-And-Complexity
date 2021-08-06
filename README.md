@@ -15,7 +15,7 @@ The sequence of changes is :
 Finds the smallest [x..y] interval with at least k in a list of “n” numbers consisting of the given integers A = [a0, a1, …, an-1] and k >=2. <br> 
 The numbers of the list fall within this range (The size of the [x..y] range is y-x.) <br> 
 The algorithm prints the range at the end.
-<br><br> 
+<br> <br> 
 
 
 ## Huffman Coder 
@@ -57,6 +57,12 @@ One 5 coin <br>
 Three 1 coins <br>
 Total: 7 coins (2x25+1x10+1x5+3x1 = 68). <br>
 <br>
+
+
+## Recursive Insertion Sort
+Insertion sort can be expressed as a recursive procedure as follows: <br>
+In order to sort A[0..n-1], we recursively sort A[0..n-2] and then insert A[n-1] into the sorted array A[0..n-2].
+<br> <br>
 
 
 ## Sorting Algorithms
