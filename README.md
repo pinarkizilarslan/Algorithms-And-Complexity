@@ -11,6 +11,13 @@ The sequence of changes is :
 <br> 
 
 
+## Find Smallest Interval
+Finds the smallest [x..y] interval with at least k in a list of “n” numbers consisting of the given integers A = [a0, a1, …, an-1] and k >=2. <br> 
+The numbers of the list fall within this range (The size of the [x..y] range is y-x.) <br> 
+The algorithm prints the range at the end.
+<br><br> 
+
+
 ## Huffman Coder 
 In computer science and information theory, a Huffman code is a particular type of optimal prefix code that is commonly used for lossless data compression. 
 <br> <br> 
@@ -25,7 +32,7 @@ d=111 <br>
 Total number of bits required to encode the data: 17 <br> 
 <br> 
 
- 
+
 ## Long Integer Multiplication
 In this project the divide-and-conquer long integer multiplication algorithm, whose running time is O(n1.58), was applied.
 
