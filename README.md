@@ -1,6 +1,16 @@
 # Algorithms And Complexity
 
 
+## Coin Exchange
+You are given a set of coins {1, 3, 20, 25}, and an amount. Design a dynamic programming algorithm that returns the minimum number of coins necessary to make up for this amount. <br>
+For example, assume you have the coins given above, and the amount is 68. <br>
+Then the minimum number of coins necessary to make up for this amount is: <br>
+ •	1x25 + 2x20 + 1x3 = 25+40+3 = 68 -> 4 coins <br>
+Notice that the greedy algorithm would return: <br>
+ •	2x25 + 6x3 = 50 + 18 = 68 -> 8 coins <br>
+<br>
+
+
 ## Edit Distance
 A dynamic programming algorithm that determines the minimum edit distance between X and Y. The edit distance between X and Y to be the minimum number of single character insertions, deletions, and replacements applied to X to make it equal to Y. For example, if X = backache and Y = sackrace, then the edit distance is 3. <br>
 The sequence of changes is :
