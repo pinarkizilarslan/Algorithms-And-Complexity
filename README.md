@@ -69,6 +69,14 @@ Total: 7 coins (2x25+1x10+1x5+3x1 = 68). <br>
 <br>
 
 
+## Minimum Cost Problem
+You are given a NxN matrix with each slot containing a number indicating the cost of going through that slot. <br>
+Initially you are at (0, 0). You are only allowed to go Down or Right. You want to go to (N-1, N-1). Find the path that has the minimum total cost. <br>
+In this problem, you are asked to implement the Bottom-up DP implementation for the minimum cost path problem. <br>
+Algorithm must return not only the cost of the minimum path, but also the indices of the matrix slots on the minimum cost path. <br>
+<br>
+
+
 ## Recursive Insertion Sort
 Insertion sort can be expressed as a recursive procedure as follows: <br>
 In order to sort A[0..n-1], we recursively sort A[0..n-2] and then insert A[n-1] into the sorted array A[0..n-2].
